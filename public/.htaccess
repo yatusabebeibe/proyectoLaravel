@@ -6,6 +6,10 @@ DirectoryIndex index.php
     </IfModule>
 
     RewriteEngine On
+    <If "%{HTTP_HOST} == 'jesustemgal.ieslossauces.es'">
+        RedirectMatch 302 ^/proyectoLaravel/?$ https://laravel.jesustemgal.ieslossauces.es
+    </If>
+
 
     # Handle Authorization Header
     RewriteCond %{HTTP:Authorization} .

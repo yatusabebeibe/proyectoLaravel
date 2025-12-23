@@ -1,3 +1,3 @@
 <If "%{HTTP_HOST} == 'jesustemgal.ieslossauces.es'">
-    RedirectMatch 302 ^/proyectoLaravel/?$ https://laravel.jesustemgal.ieslossauces.es
+    RedirectMatch 302 ^/JTGDWESProyectoLaravel/?$ https://laravel.jesustemgal.ieslossauces.es
 </If>
